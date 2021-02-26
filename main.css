@@ -1,0 +1,97 @@
+/* for titles */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* for recipes */
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+/* for text blocks */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* .backgroundcolour {
+    background-color: rgb(240,255,255)
+} */
+
+/* body {
+    background-color: #3d3d3d;
+    color: #fff;
+} */
+
+.center {
+    text-align: center;
+}
+.titlefont {
+    font-family: 'Pacifico', cursive;
+}
+.recipefont {
+    font-family: 'Cutive Mono', monospace;
+}
+.textblockfont {
+    font-family: 'Roboto', sans-serif;
+}
+.absolute {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+/* normal nav bar */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+/* dark mode for nav bar  */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-color: #3d3d3d;
+    background-image: url(Images/background5.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.nav {
+    display: inline;
+
+}
+.nav a {
+    padding-right: 30px;
+    float: right;
+}
+
